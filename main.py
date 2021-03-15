@@ -10,8 +10,8 @@ class NitroGen: # Initialise the class
         self.fileName = "Poprawne kody.txt" # Set the file name the codes are stored in
 
     def main(self): # The main function contains the most important code
+        os.system('color 02' if os.name == 'nt' else 'echo uruchamianie...')
         os.system('cls' if os.name == 'nt' else 'clear') # Clear the screen
-        os.system('color 02')
 
         print(""" █████╗ ███╗   ██╗ ██████╗ ███╗   ██╗██╗██╗  ██╗
 ██╔══██╗████╗  ██║██╔═══██╗████╗  ██║██║╚██╗██╔╝
