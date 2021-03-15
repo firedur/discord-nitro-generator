@@ -7,6 +7,7 @@ Polska wersja generatora Stworzonego przez Drillenissen#4268 & Benz#4947
 <code>
 py -3 -m pip install discord_webhook
 </code>
+
 <em>
 ten generator potrzebuje tylko modułu discord_webhook
 </em>
