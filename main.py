@@ -21,8 +21,10 @@ class NitroGen: # Initialise the class
 ╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝╚═╝  ╚═╝
                                                         """) # Print the title card
         time.sleep(2) # Wait a few seconds
-        self.slowType("Zrobione przez: Drillenissen#4268 & Benz#4947 & firedur#1460", .02) # Print who developed the code
+        self.slowType("Zrobione przez: Drillenissen#4268 & Benz#4947 Oprawa graficzna i tłumaczenie na język polski: firedur#1460", .02) # Print who developed the code
         time.sleep(1) # Wait a little more
+        self.slowType("Uwaga wykopanie działającego kodu może zająć nawet tydzień!", .01)
+        time.sleep(1)
         self.slowType("\nWpisz ile Kodów chcesz wygenerować: ", .02, newLine = False) # Print the first question
 
         num = int(input('')) # Ask the user for the amount of codes
