@@ -11,5 +11,6 @@ py -3 -m pip install discord_webhook
 <em>
 ten generator potrzebuje tylko modułu discord_webhook
 </em>
+
 ## Uruchamianie
 Aby uruchomić nasz generator wystarczy uruchomić plik main.py
