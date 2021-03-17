@@ -13,9 +13,13 @@ py -3 -m pip install discord_webhook
  python3 -m pip install discord_webhook
 </code>
 
+## Uruchamianie
+Aby uruchomić nasz generator na windowsie wystarczy uruchomić plik main.py
+Na linuxie trzeba uruchomić go komendą
+<code>
+python3 main.py
+</code>
+
 <em>
 ten generator potrzebuje tylko modułu discord_webhook
 </em>
-
-## Uruchamianie
-Aby uruchomić nasz generator wystarczy uruchomić plik main.py
