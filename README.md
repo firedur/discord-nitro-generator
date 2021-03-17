@@ -5,7 +5,7 @@ Polska wersja generatora Stworzonego przez Drillenissen#4268 & Benz#4947
 # Jak używać?
 ## Instalacja na Windowsie
 <code>
-py -3 -m pip install discord_webhook
+pip install discord_webhook
 </code>
 
 ## Instalacja na linuxie
